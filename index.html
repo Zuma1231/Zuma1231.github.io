@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио — Твоё Имя</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #1e90ff;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Привет, я Тони Старк</h1>
+    <p>Верстальщик • HTML • CSS • JS</p>
+  </header>
+
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#projects">Проекты</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+
+  <section id="about">
+    <h2>Обо мне</h2>
+    <p>
+      Я начинающий верстальщик. Умею создавать адаптивные, быстрые и удобные сайты.
+      Использую HTML5, CSS3 (Flexbox, Grid), немного JS. Люблю красивые интерфейсы и чистый код.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Мои проекты</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="screenshot1.jpg" alt="Проект 1">
+        <h3>Лендинг курса английского</h3>
+        <p>Адаптивный сайт, сверстан по макету из Figma. Использовал Flexbox и Grid.</p>
+        <a href="https://github.com/yourname/project1" target="_blank">Код</a> | 
+        <a href="https://yourdemo1.netlify.app" target="_blank">Демо</a>
+      </div>
+      <div class="project">
+        <img src="screenshot2.jpg" alt="Проект 2">
+        <h3>Интернет-магазин</h3>
+        <p>Сайт с карточками товаров и фильтрацией. CSS + JS.</p>
+        <a href="https://github.com/yourname/project2" target="_blank">Код</a> | 
+        <a href="https://yourdemo2.netlify.app" target="_blank">Демо</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Напиши мне, если нужен сайт 👇</p>
+    <p>
+      📧 Email: <a href="mailto:youremail@example.com">youremail@example.com</a><br>
+      💬 Telegram: <a href="https://t.me/yourusername" target="_blank">@yourusername</a><br>
+      💼 GitHub: <a href="https://github.com/yourname" target="_blank">github.com/yourname</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Твоё имя | Сделано с ❤️ и HTML</p>
+  </footer>
+
+</body>
+</html>
